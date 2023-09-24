@@ -71,7 +71,7 @@ spec:
         app: elasticsearch
     spec:
       accessModes: [ "ReadWriteOnce" ]
-      storageClassName: local-storage
+      storageClassName: cdk-cinder
       resources:
         requests:
           storage: 2Gi
